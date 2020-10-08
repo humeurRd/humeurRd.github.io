@@ -30,7 +30,9 @@ const displayCharacters = (characters) => {
             return `
             <li class="character">
                 <h2>${character.name}</h2>
-                <p>Casa: ${character.house}</p></br>
+                <p> </br> Casa: ${character.house}</br>
+                Cumpleaños: ${character.dateOfBirth}</br>
+                Actor: ${character.actor}</br></p>
                 <img src="${character.image}"></img>
                 
 
